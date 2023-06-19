@@ -1,0 +1,2 @@
+/data/True.csv filter=lfs diff=lfs merge=lfs -text
+/data/False.csv filter=lfs diff=lfs merge=lfs -text
