@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Gloock&family=Orbitron:wght@400;500;600;700;800;900&family=Poppins:wght@400;500;700;800&display=swap');
+
+*,*:after,*:before{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+	font-size: 16px;
+	margin: 0;
+	background:linear-gradient(to right bottom, #d13cff, #031f6a);
+	color: #000;
+	
+	display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  min-height: 100vh;
+}
+
+.voice_to_text{
+  width: 600px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+h1{
+	color: #fff;
+	font-size: 50px;
+  font-family: 'Orbitron', sans-serif;
+}
+#convert_text{
+  width: 100%;
+  height: 150px;
+  border-radius: 10px;
+  resize: none;
+  padding: 10px;
+  color: #000;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+button{
+	padding: 12px 20px;
+  background: #0ea4da;
+  border: 1px;
+  width: 40%;
+  border-color: #000;
+  color: #000;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+form .button{
+  padding: 12px 20px;
+  background: #0ea4da;
+  border: 0;
+  color: #000;
+  font-size: 18px;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.image{
+  margin: -8px -20px;
+  width: 25px;
+  cursor: pointer;
+  height: 25px;
+}
